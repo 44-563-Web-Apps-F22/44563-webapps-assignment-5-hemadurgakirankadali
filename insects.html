@@ -14,6 +14,23 @@
  
 </head>
 <body>
+   <h3>navigation bar section</h3>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="insects.html ">Insects</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-link">
+          <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-link">
+          <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+        </li>
+     </ul>
+    </div>
+  </nav>
 <h1>Insects by kiran kadali</h1>
 <div class="container">
 
@@ -69,6 +86,125 @@
        <img src="ant lions.jpg" class="image-thumbnails" height="400" width="400">
      </div>
      <br>
- 
+     <table class="table table-striped table-bordered" style="color:black; width: 40%; text-align:center; margin-left: auto; margin-right: auto;" >
+      <caption style="font-size: 20px; color:teal;"> Above table consists of 4 columns. It consists of elements Insect, Letter, City and River  starting with the letters of my Last Name "KADALI".</caption>
+      <thead>
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">Insect</th>
+          <th scope="col">River</th>
+          <th scope="col">City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">k</td>
+          <td scope="row">kissing bug</td>
+          <td scope="row">Kachess</td>
+          <td scope="row">Knoxville</td>
+        </tr>
+        <tr>
+          <td scope="row">A</td>
+          <td scope="row">antlions</td>
+          <td scope="row">Amazon</td>
+          <td scope="row">Anaheim</td>
+        </tr>
+        <tr>
+          <td scope="row">D</td>
+          <td scope="row">dobsonfiles</td>
+          <td scope="row">Dan River</td>
+          <td scope="row">Denver</td>
+        </tr>
+        <tr>
+          <td scope="row">A</td>
+          <td scope="row">archaeognatha</td>
+          <td scope="row">Alum Creek</td>
+          <td scope="row">Arlington</td>
+        </tr>
+        <tr>
+          <td scope="row">L</td>
+          <td scope="row">ladybugs</td>
+          <td scope="row">lena</td>
+          <td scope="row">Las Vegas</td>
+        </tr>
+        <tr>
+          <td scope="row">I</td>
+          <td scope="row">isoptera</td>
+          <td scope="row">Illinois River</td>
+          <td scope="row">Indio</td>
+        </tr>
+        </tbody>
+        </table>
+        <h3>Buttons and Button Groups</h3>
 
-</body>
+        <div class="btn-toolbar">
+      
+          <button type="button" class="btn btn-success">K</button>
+          <button type="button" class="btn btn-success">A</button>
+          <button type="button" class="btn btn-success">D</button>
+    
+          <button type="button" class="btn btn-warning">A</button>
+          <button type="button" class="btn btn-warning">L</button>
+    
+          <button type="button" class="btn btn-danger">I</button>
+      </div>
+  
+      <br>
+      <div class="dropdown">
+         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+         <div class="dropdown-menu">
+           <a href="basic.html" class="dropdown-item">Link to Basic html</a>
+           <a href="advanced.html" class="dropdown-item">Link to Advanced html</a>
+         </div>
+       </div>
+   
+       <br>
+       <h3>Form Section</h3>
+
+       <form>
+         <div class="form-group">
+           <label for="EmailLogin">Email address</label>
+           <input type="email" class="form-control" id="Email" aria-describedby="emailaddress" placeholder="Enter your email address">
+           <small id="emailaddress" class="form-text text-muted">We wont share your email with anyone.</small>
+         </div>
+         <div class="form-group">
+           <label for="Password">Insect</label>
+           <input type="text" class="form-control" id="Password" placeholder="Enter your insect">
+         </div>
+         <div class="form-check">
+           <input type="checkbox" class="form-check-input" id="checkin">
+           <label class="form-check-label" for="Checkin">Sign up for newsletter?</label>
+         </div>
+         <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+       <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="ant lions.jpg" height="200" width="300" >
+          <div class="card-body">
+            <h5 class="card-title">antlions</h5>
+            <p class="card-text">The antlions are a group of about 2,000 species of insect in the neuropteran family Myrmeleontidae. They are known for the predatory habits of their larvae, which mostly dig pits to trap passing ants or other prey. </p>
+                 <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Antlion">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="dobsonfiles.jpg" height="200" width="100">
+          <div class="card-body">
+            <h5 class="card-title">dobsonfiles</h5>
+            <p class="card-text">Dobsonflies are a subfamily of insects, Corydalinae, part of the Megalopteran family Corydalidae. The larvae are aquatic, living in streams, and the adults are often found along streams as well. The nine genera of dobsonflies are distributed in the Americas, Asia, and South Africa</p>
+                 <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Dobsonfly">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="kissing bug.jpg" height="200" width="50">
+          <div class="card-body">
+            <h5 class="card-title">kissing bug</h5>
+            <p class="card-text">The members of the Triatominae, a subfamily of the Reduviidae, are also known as conenose bugs, kissing bugs, or vampire bugs. Other local names for them used in The Americas include barbeiros, vinchucas, pitos, chipos and chinches. </p>
+                 <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Triatominae">Read more</a>
+          </div>
+        </div>
+      </div>
+   
+   </body>
+   </html>
+  
+
